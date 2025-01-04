@@ -749,7 +749,7 @@
         top: 63px;
         padding: 15px;
         font-size: 14px;
-        padding-bottom: 90px;
+        padding-bottom: 110px;
         width: 100%;
         height: auto;
         max-height: calc(100vh - 50px);
@@ -845,6 +845,9 @@
     }
     .sidebar-page {
         display: block !important;
+    }
+    .menu > li > a:hover {
+        color: #2a647c;
     }
 }
 
