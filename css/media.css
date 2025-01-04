@@ -749,7 +749,7 @@
         top: 63px;
         padding: 15px;
         font-size: 14px;
-        padding-bottom: 40px;
+        padding-bottom: 90px;
         width: 100%;
         height: auto;
         max-height: calc(100vh - 50px);
@@ -790,6 +790,15 @@
     }
     .no-scroll {
         overflow: hidden;
+    }
+    .checkbox {
+        font-size: 12px;
+        justify-content: center;
+    }
+    .consultation .title-section {
+        margin-bottom: 14px;
+        max-width: 300px;
+        line-height: 140%;
     }
 }
 

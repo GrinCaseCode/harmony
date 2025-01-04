@@ -45,7 +45,6 @@ $(document).ready(function() {
 		arrows: true,
 		dots: false,
 		infinite: true,
-		touchThreshold: 1000,
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-arrow-left"></i><div/>',
