@@ -1104,6 +1104,7 @@ form {
 }
 .reviews-main {
 	margin-bottom: 57px;
+	display: block;
 }
 .reviews-main img {
 	max-width: 100%;
@@ -1207,7 +1208,7 @@ form {
 	font-size: 14px;
 	line-height: 160%;
 }
-.item-tag:hover {
+a.item-tag:hover {
     background: #e0e9ec;
 }
 .item-tag_main {
