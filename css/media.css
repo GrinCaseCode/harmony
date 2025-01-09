@@ -1117,7 +1117,7 @@
         padding: 0 19px;
         height: 44px;
     }
-    .page-news {
+    .page-news { 
         padding-bottom: 50px;
     }
     .breadcrumbs {
@@ -1128,7 +1128,7 @@
     }
     .page-article .title-section {
         font-size: 22px;
-        margin-bottom: 22px;
+        margin-bottom: 22px; 
     }
     .article-sidebar {
         top: 0;
