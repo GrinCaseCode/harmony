@@ -187,6 +187,90 @@
     .menu > li {
         margin-bottom: 15px;
     }
+    .doctor-info {
+        padding: 25px;
+    }
+    .title-main {
+        font-size: 28px;
+    }
+    .doctor-info .tags-list {
+        margin-bottom: 38px;
+    }
+    .tags-list {
+        gap: 10px;
+    }
+    .item-tag {
+        padding: 8px 12px;
+    }
+    .title-text,
+    .text-page h3 {
+        font-size: 22px;
+    }
+    .reviews-main {
+        margin-bottom: 42px;
+    }
+    .item-question__head {
+        padding: 11px;
+        padding-right: 16px;
+        font-size: 16px;
+        gap: 12px;
+    }
+    .item-question__content {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    .unit-directions {
+        padding: 16px;
+    }
+    .unit-directions .item-tag {
+        font-size: 13px;
+    }
+    .unit-directions .tags-list {
+        gap: 6px;
+    }
+    .item-news__title {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .item-news__date {
+        font-size: 13px;
+    }
+    .item-news__image {
+        height: 210px;
+        margin-bottom: 15px;
+    }
+    .article-sidebar {
+        top: 107px;
+        font-size: 13px;
+        margin-right: 0;
+    }
+    .article-content h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 14px;
+    }
+    .article-sidebar .btn-main {
+        margin-top: 29px;
+    }
+    .page-prices .title-section,
+    .page-schedule .title-section {
+        margin-bottom: 35px;
+    }
+    .title-td {
+        font-size: 14px;
+    }
+    .page-prices td:nth-child(3) {
+        width: 563px;
+    }
+    .text-billbord {
+        max-width: 760px;
+    }
+    .billbord-page {
+        min-height: 620px;
+    }
+    .page-about {
+        padding-bottom: 220px;
+    }
 }
 @media only screen and (max-width : 1600px) {
     .sidebar-page {
@@ -373,6 +457,117 @@
         padding: 4px 6px;
         font-size: 13px;
     }
+    .pager {
+        height: 40px;
+        margin-top: 40px;
+    }
+    .prev.page-numbers, .next.page-numbers {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .page-numbers {
+        font-size: 16px;
+        margin: 0 14px;
+    }
+    .row.row_main > div {
+        padding: 0 6px;
+        margin-bottom: 20px;
+    }
+    .row.row_main {
+        margin: 0 -6px;
+        margin-bottom: -20px;
+    }
+    .page-doctors .title-section {
+        margin-bottom: 22px;
+    }
+    .doctor-info .tags-list {
+        margin-bottom: 30px;
+    }
+    .item-tag {
+        padding: 6px 9px;
+    }
+    .doctor-info {
+        padding: 20px;
+    }
+    .title-text, .text-page h3 {
+        font-size: 20px;
+    }
+    .title-main {
+        font-size: 26px;
+    }
+    .item-question__head {
+        padding: 9px;
+        padding-right: 14px;
+        font-size: 15px;
+        gap: 10px;
+    }
+    .item-question__content {
+        line-height: 150%;
+    }
+    .single-doctor__sidebar {
+        top: 100px;
+    }
+    .row.row_page > div {
+        padding: 0 8px;
+        margin-bottom: 18px;
+    }
+    .row.row_page {
+        margin: 0 -8px;
+        margin-bottom: -18px;
+    }
+    .row.row_news > div {
+        padding: 0 7px;
+        margin-bottom: 20px;
+    }
+    .row.row_news {
+        margin: 0 -7px;
+        margin-bottom: -20px;
+    }
+    .item-news__title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .item-news__image {
+        height: 190px;
+    }
+    .page-news {
+        padding-bottom: 90px;
+    }
+    .filter-buttons {
+        gap: 22px;
+        margin-bottom: 30px;
+    }
+    .article-sidebar .btn-main {
+        margin-top: 20px;
+    }
+    .article-sidebar__image {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 12px;
+    }
+    .article-sidebar__title {
+        margin-bottom: 12px;
+        font-size: 17px;
+    }
+    .page-prices td:nth-child(3) {
+        width: 555px;
+    }
+    .billbord-page .breadcrumbs {
+        padding-bottom: 60px;
+    }
+    .billbord-page {
+        min-height: 560px;
+    }
+    .page-about {
+        padding-bottom: 170px;
+    }
+    .team-about {
+        padding-bottom: 90px;
+    }
+    .head-section__content {
+        max-width: 650px;
+    }
 }
 @media only screen and (max-width : 1400px) {
     .sidebar-page {
@@ -531,6 +726,88 @@
     .menu__dropdown li a {
         font-size: 12px;
     }
+    .item-question__head {
+        padding: 7px;
+        padding-right: 10px;
+        font-size: 14px;
+        gap: 6px;
+    }
+    .single-doctor__content {
+        margin-left: -40px;
+    }
+    .doctor-info {
+        padding: 16px;
+    }
+    .questions-block {
+        padding: 15px;
+    }
+    .title-main {
+        font-size: 23px;
+    }
+    .breadcrumbs {
+        padding-top: 23px;
+        padding-bottom: 16px;
+        font-size: 13px;
+    }
+    .single-doctor__sidebar {
+        top: 80px;
+    }
+    .unit-directions .title-text {
+        margin-bottom: 15px;
+    }
+    .unit-directions .tags-list {
+        gap: 4px;
+    }
+    .unit-directions .item-tag {
+        font-size: 11px;
+    }
+    .page-directions .title-section {
+        margin-bottom: 26px;
+    }
+    .item-news__image {
+        height: 160px;
+    }
+    .page-article .title-section {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+    .article-content h2 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .page-article {
+        padding-bottom: 80px;
+    }
+    .page-article .article-content {
+        margin: 0;
+    }
+    .article-sidebar {
+        top: 88px;
+    }
+    .page-prices, 
+    .page-schedule, 
+    .page-questions, 
+    .page-article, 
+    .page-news, 
+    .page-directions {
+        background-position: center top -79px;
+        background-size: 1500px auto;
+    }
+    .table-page table td {
+        font-size: 13px;
+    }
+    .table-page table td, .table-page table th {
+        padding: 8px 14px;
+    }
+    .title-td {
+        font-size: 13px;
+    }
+    .page-prices td:nth-child(3) {
+        width: 480px;
+    }
+    .text-billbord {
+        max-width: 650px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -604,6 +881,9 @@
     .menu__dropdown li a {
         font-size: 11px;
         padding: 3px 4px;
+    }
+    .item-news__image {
+        height: 200px;
     }
 }
 
@@ -800,6 +1080,164 @@
         max-width: 300px;
         line-height: 140%;
     }
+    .single-doctor__sidebar {
+        margin-right: 0;
+    }
+    .single-doctor__content {
+        margin: 0;
+    }
+    .reviews-main {
+        margin-bottom: 30px;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .single-doctor__sidebar {
+        top: 0;
+    }
+    .unit-directions .item-tag {
+        font-size: 12px;
+    }
+    .page-prices,
+    .page-schedule,
+    .page-article,
+    .page-news,
+    .page-doctors,
+    .single-doctor,
+    .page-directions {
+        background-position: center top;
+        background-size: 100% auto;
+    }
+    .filter-buttons {
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+    .filter-buttons .btn-main {
+        font-size: 13px;
+        padding: 0 19px;
+        height: 44px;
+    }
+    .page-news {
+        padding-bottom: 55px;
+    }
+    .breadcrumbs {
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .page-article .title-section {
+        font-size: 22px;
+        margin-bottom: 22px;
+    }
+    .article-sidebar {
+        top: 0;
+        margin-bottom: 25px;
+    }
+    .article-content h2 {
+        font-size: 18px;
+    }
+    .page-article {
+        padding-bottom: 50px;
+    }
+    .article-sidebar__wrap {
+        gap: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .article-sidebar__image {
+        width: 96px;
+        height: 96px;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .article-sidebar .btn-main {
+        margin-top: 10px;
+    }
+    .article-sidebar__title {
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+    .table-page {
+        overflow: auto;
+        margin-right: -15px;
+    }
+    .table-page table {
+        width: 900px;
+    }
+    .title-td {
+        font-size: 14px;
+    }
+    .table-page table th {
+        font-size: 14px;
+    }
+    .table-page::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    .table-page::-webkit-scrollbar:vertical {
+        width: 3px;
+    }
+    .table-page::-webkit-scrollbar:horizontal {
+        height: 3px;
+    }
+    .table-page::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 10px;
+    }
+    .table-page::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: #ccc;
+    }
+    .consultation::before {
+        top: -115px;
+        height: 320px;
+    }
+    .page-prices .title-section,
+    .page-schedule .title-section {
+        margin-bottom: 22px;
+    }
+    .page-prices td:nth-child(3) {
+        width: auto;
+    }
+    .billbord-page .breadcrumbs {
+        padding-bottom: 40px;
+    }
+    .billbord-page {
+        min-height: 450px;
+    }
+    .text-columns {
+        columns: initial;
+    }
+    .page-about .text-columns {
+        margin-bottom: 30px;
+    }
+    .item-about {
+        padding: 23px 20px;
+        padding-top: 35px;
+        border-radius: 14px;
+    }
+    .page-about {
+        padding-bottom: 60px;
+    }
+    .head-section__content .title-text {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 18px;
+    }
+    .team-about .head-section .title-section {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .team-about .head-section {
+        margin-bottom: 34px;
+    }
+    .team-about .head-section .btn-main {
+        margin-bottom: 0;
+    }
+    .team-about {
+        padding-bottom: 50px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -871,5 +1309,16 @@
 @media (min-width: 1820px) {
     .container {
         max-width: 1230px;
+    }
+}
+
+@media (min-width: 2200px) {
+    .page-prices,
+    .page-schedule,
+    .page-questions,
+    .page-article,
+    .page-news,
+    .page-directions {
+        background-size: 100% auto;
     }
 }

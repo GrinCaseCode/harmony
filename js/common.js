@@ -4,6 +4,13 @@ $(document).ready(function() {
 	$(".navigat li a").mPageScroll2id();
 
 
+	$(".item-question__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-question").removeClass("active");
+		$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+	});
+
 	//кнопка sandwich
 	$(".sandwich").click(function() {
 		if ($(".sidebar-page").is(":hidden")) {
