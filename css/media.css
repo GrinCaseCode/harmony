@@ -346,7 +346,7 @@
         padding-bottom: 52px;
     }
     .btn-main {
-        height: 52px;
+        height: 50px;
         padding: 0 38px;
         font-size: 14px;
     }
@@ -394,7 +394,7 @@
         top: -104px;
     }
     .item-form input, .item-form textarea {
-        height: 52px;
+        height: 50px;
         padding: 0 15px;
         font-size: 12px;
     }
@@ -567,6 +567,9 @@
     }
     .head-section__content {
         max-width: 650px;
+    }
+    .item-team .btn-main {
+        height: 46px;
     }
 }
 @media only screen and (max-width : 1400px) {
@@ -1117,7 +1120,7 @@
         padding: 0 19px;
         height: 44px;
     }
-    .page-news { 
+    .page-news {  
         padding-bottom: 50px;
     }
     .breadcrumbs {

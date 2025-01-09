@@ -1237,7 +1237,7 @@ a.item-tag_main:hover {
 	align-items: center;
 	flex-wrap: wrap;
 }
-.filter-buttons .btn-main.active {
+.filter-buttons .btn-main.active { 
 	background: #fff;
 	color: #17333f;
 }
