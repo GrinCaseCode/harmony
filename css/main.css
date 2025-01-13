@@ -1530,7 +1530,7 @@ div.item-tag {
 }
 .article-content ul li::before {
     position: absolute;
-    top: 0;
+    top: 0; 
     left: 3px;
     content: "•";
 }
