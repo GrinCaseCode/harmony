@@ -1286,6 +1286,39 @@
     .item-table {
         margin-bottom: 12px;
     }
+    .head-table {
+        display: none;
+    }
+    .item-table .table-page table,
+    .item-table .table-page tr,
+    .item-table .table-page td {
+        display: block;
+    }
+    .item-table .table-page td::before {
+        width: 110px;
+        flex: none;
+        font-size: 13px;
+        content: attr(data-title) ": ";
+    }
+    .item-table .table-page {
+        margin-right: 0;
+    }
+    .item-table .table-page td:last-child {
+        font-size: 14px;
+    }
+    .item-table .table-page td {
+        gap: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        width: 100% !important;
+    }
+    .item-table .table-page table {
+        width: 100%;
+    }
+    .item-table .table-page tr {
+        border-bottom: 1px #17333f solid;
+    }
 }
 
 /* Small Devices, Tablets */
