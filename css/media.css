@@ -245,7 +245,7 @@
         margin-right: 0;
     }
     .article-content h2 {
-        font-size: 22px;
+        font-size: 21px;
         margin-top: 30px;
         margin-bottom: 14px;
     }
@@ -263,13 +263,23 @@
         width: 563px;
     }
     .text-billbord {
-        max-width: 760px;
+        max-width: 720px;
     }
     .billbord-page {
         min-height: 620px;
     }
     .page-about {
         padding-bottom: 220px;
+    }
+    .prices-table table tr > *:nth-child(4),
+    .prices-table table tr > *:nth-child(1) {
+        width: 12%;
+    }
+    .prices-table table tr > *:nth-child(2) {
+        width: 18%;
+    }
+    .prices-table table tr > *:nth-child(3) {
+        width: 55%;
     }
 }
 @media only screen and (max-width : 1600px) {
@@ -571,6 +581,29 @@
     .item-team .btn-main {
         height: 46px;
     } 
+    .item-about {
+        padding: 38px 33px;
+        padding-top: 55px;
+    }
+    .page-about .text-columns {
+        margin-bottom: 45px;
+    }
+    .text-columns {
+        gap: 25px;
+    }
+    .table-page table td, .table-page table th {
+        padding: 10px 15px;
+    }
+    .prices-table table tr > *:nth-child(4),
+    .prices-table table tr > *:nth-child(1) {
+        width: 13%;
+    }
+    .prices-table table tr > *:nth-child(2) {
+        width: 16%;
+    }
+    .prices-table table tr > *:nth-child(3) {
+        width: 56%;
+    }
 }
 @media only screen and (max-width : 1400px) {
     .sidebar-page {
@@ -775,7 +808,7 @@
         margin-bottom: 26px;
     }
     .article-content h2 {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 25px;
     }
     .page-article {
@@ -809,7 +842,13 @@
         width: 480px;
     }
     .text-billbord {
-        max-width: 650px;
+        max-width: 620px;
+    }
+    .page-about .text-columns {
+        margin-bottom: 37px;
+    }
+    .text-columns {
+        gap: 22px;
     }
 }
 /* Large Devices, Wide Screens */
@@ -1240,6 +1279,12 @@
     }
     .team-about {
         padding-bottom: 50px;
+    }
+    .item-table__head {
+        margin-right: -15px;
+    }
+    .item-table {
+        margin-bottom: 12px;
     }
 }
 

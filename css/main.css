@@ -1241,6 +1241,7 @@ a.item-tag_main:hover {
 	background: #fff;
 	color: #17333f;
 }
+
 .item-news {
 	width: 100%;
 	color: #17333f;
@@ -1451,4 +1452,35 @@ a.item-tag_main:hover {
 }
 .page-about .text-columns {
 	margin-bottom: 66px;
+}
+.item-table__head {
+	padding: 10px 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	background: #D2E0E7;
+	font-weight: 500;
+}
+.item-table__head i {
+	transition: all 0.3s;
+}
+.item-table.active .item-table__head i {
+	transform: rotate(180deg);
+}
+.item-table {
+	margin-bottom: 18px;
+}
+.item-table .table-page {
+	display: none;
+}
+.prices-table table tr > *:nth-child(4),
+.prices-table table tr > *:nth-child(1) {
+	width: 15%;
+}
+.prices-table table tr > *:nth-child(2) {
+	width: 20%;
+}
+.prices-table table tr > *:nth-child(3) {
+	width: 50%;
 }

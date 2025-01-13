@@ -11,6 +11,15 @@ $(document).ready(function() {
 		$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
 	});
 
+
+	//цены
+	$(".item-table__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".table-page").slideToggle(200);
+		$(this).parent().siblings(".item-table").removeClass("active");
+		$(this).parent().siblings(".item-table").find(".table-page").slideUp(200);
+	});
+
 	//кнопка sandwich
 	$(".sandwich").click(function() {
 		if ($(".sidebar-page").is(":hidden")) {
