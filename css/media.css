@@ -281,6 +281,29 @@
     .prices-table table tr > *:nth-child(3) {
         width: 55%;
     }
+    .blockquote__text {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .blockquote {
+        padding: 82px 22px;
+        padding-right: 27px;
+        padding-bottom: 50px;
+        margin: 30px 0;
+    }
+    .blockquote::after, 
+    .blockquote::before {
+        width: 33px;
+        height: 24px;
+    }
+    .blockquote::before {
+        top: 28px;
+        left: 25px;
+    }
+    .blockquote::after {
+        bottom: 25px;
+        right: 30px;
+    }
 }
 @media only screen and (max-width : 1600px) {
     .sidebar-page {
@@ -603,6 +626,26 @@
     }
     .prices-table table tr > *:nth-child(3) {
         width: 56%;
+    }
+    .blockquote__text {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .blockquote {
+        padding: 67px 20px;
+        padding-right: 24px;
+        padding-bottom: 42px;
+    }
+    .blockquote::before {
+        top: 22px;
+    }
+    .article-content img {
+        margin: 16px 0;
+    }
+    .article-content h2 {
+        font-size: 19px;
+        margin-top: 22px;
+        margin-bottom: 12px;
     }
 }
 @media only screen and (max-width : 1400px) {
@@ -1037,17 +1080,14 @@
     .row_footer > div:nth-child(1) {
         order: -2;
     }
-    .row_footer > div:nth-child(4) {
-        order: -1;
-    }
     .footer .btn-eye {
         margin-top: 22px;
     }
     .row_footer > div {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .row_footer {
-        margin-bottom: -15px;
+        margin-bottom: -25px;
     }
     .create {
         margin: 0;
@@ -1315,6 +1355,28 @@
     }
     .item-table .table-page tr {
         border-bottom: 1px #17333f solid;
+    }
+    .blockquote__text {
+        font-size: 14px;
+    }
+    .blockquote {
+        padding-top: 60px;
+    }
+    .footer .socials-list {
+        margin-top: 15px;
+    }
+    .hidden-mob {
+        display: none !important;
+    }
+    .item-team {
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .item-team__image {
+        height: 310px;
+    }
+    .page-article .row_news {
+        padding-top: 15px;
     }
 }
 

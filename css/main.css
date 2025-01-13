@@ -1066,7 +1066,7 @@ form {
 .item-tag {
 	padding: 10px 14px;
 	border-radius: 6px;
-	background: #f2f9fc;
+	background: #eef3ff;
 	color: #17333f;
 	display: block;
 }
@@ -1209,13 +1209,10 @@ form {
 	line-height: 160%;
 }
 a.item-tag:hover {
-    background: #e0e9ec;
-}
-.item-tag_main {
-	background: #eef3ff;
-}
-a.item-tag_main:hover {
     background: #d8dff1;
+}
+div.item-tag {
+	background: #f2f9fc;
 }
 .page-directions .title-section {
 	margin-bottom: 35px;
@@ -1299,7 +1296,7 @@ a.item-tag_main:hover {
 	padding-bottom: 109px;
 }
 .article-content img {
-	margin-bottom: 29px;
+	margin: 30px 0;
 	max-width: 100%;
 	height: auto;
 	display: block;
@@ -1319,6 +1316,7 @@ a.item-tag_main:hover {
 }
 .article-content img:first-child {
 	border-radius: 8px;
+	margin-top: 0;
 }
 .page-article {
 	padding-bottom: 100px;
@@ -1483,4 +1481,59 @@ a.item-tag_main:hover {
 }
 .prices-table table tr > *:nth-child(3) {
 	width: 50%;
+}
+.requisites {
+	margin-top: 17px;
+	font-weight: 500;
+}
+.requisites p {
+	margin: 0;
+}
+.blockquote {
+    padding: 94px 32px;
+    padding-right: 44px;
+	padding-bottom: 64px;
+	margin: 33px 0;
+	border-radius: 8px;
+	background: #fff;
+	position: relative;
+}
+.blockquote__text {
+	font-size: 18px;
+	margin-bottom: 18px;
+	line-height: 160%;
+}
+.blockquote::after,
+.blockquote::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 37px;
+	height: 27px;
+	top: 41px;
+	left: 36px;
+	background-image: url(../img/quote1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.blockquote::after {
+	bottom: 37px;
+	right: 45px;
+	background-image: url(../img/quote2.svg);
+	top: auto;
+	left: auto;
+}
+.article-content ul li {
+	padding-left: 20px;
+    position: relative;
+}
+.article-content ul li::before {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    content: "•";
+}
+.article-content ul {
+	margin-bottom: 20px;
 }
