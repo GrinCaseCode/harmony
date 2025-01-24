@@ -1160,6 +1160,7 @@ form {
 .item-question.active .item-question__head i {
 	transform: rotate(180deg);
 }
+.page-contacts,
 .page-prices,
 .page-schedule,
 .page-questions,
@@ -1178,6 +1179,7 @@ form {
 .page-directions + .consultation {
 	background-color: #fbfdff;
 }
+.page-contacts .container,
 .page-prices .container,
 .page-schedule .container,
 .page-questions .container,
@@ -1413,7 +1415,7 @@ div.item-tag {
 	max-width: 710px;
 }
 .team-about {
-	padding-bottom: 115px;
+	padding-bottom: 70px;
 }
 .team-about .head-section {
 	margin-bottom: 50px;
@@ -1424,7 +1426,7 @@ div.item-tag {
 }
 .page-about {
 	padding-top: 35px;
-	padding-bottom: 262px;
+	padding-bottom: 70px;
 }
 .page-about .title-text {
 	margin-bottom: 14px;
@@ -1447,9 +1449,6 @@ div.item-tag {
 .item-about .title-main {
 	margin-bottom: 15px;
 	color: #347794;
-}
-.page-about .text-columns {
-	margin-bottom: 66px;
 }
 .item-table__head {
 	padding: 10px 24px;
@@ -1536,4 +1535,98 @@ div.item-tag {
 }
 .article-content ul {
 	margin-bottom: 20px;
+}
+
+.page-contacts {
+	padding-bottom: 110px;
+}
+.contacts-main {
+	padding: 34px 45px;
+	padding-right: 35px;
+	border-radius: 20px;
+	background: #fff;
+}
+.page-contacts .title-section {
+	margin-bottom: 38px;
+}
+.form-page {
+	padding: 24px 36px;
+	margin-left: -50px;
+	border-radius: 20px;
+	background: #d2e0e7;
+}
+.form-page__title {
+	margin-bottom: 28px;
+	font-size: 24px;
+	line-height: 160%;
+	text-align: center;
+	font-weight: 500;
+}
+.form-page .btn-main {
+	margin-top: 15px;
+	width: 100%;
+}
+.contacts-main__item strong {
+	font-weight: 500;
+}
+.contacts-main__item {
+	margin-bottom: 40px;
+}
+.contacts-main__item a {
+	color: #17333f;
+}
+.contacts-main__line {
+	margin-top: 2px;
+	gap: 20px;
+	display: flex;
+	align-items: center;
+}
+.contacts-main__content {
+	margin-right: 30px;
+}
+
+#map {
+	height: 412px;
+	margin-top: 50px;
+	border-radius: 20px;
+	background: #fff;
+	width: 100%;
+	overflow: hidden;
+}
+.page-directions .article-content {
+	padding-top: 50px;
+}
+.logo-about {
+	height: 260px;
+	margin: 70px 0;
+	background-color: #e0f1f7;
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../img/bg_logo_about.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.logo-about img {
+	width: 662px;
+	height: auto;
+}
+.reviews-about {
+	padding-bottom: 150px;
+}
+.reviews-about__block {
+	padding: 22px 28px;
+	padding-bottom: 39px;
+	border-radius: 16px;
+	background: #fff;
+}
+.team-about,
+.reviews-about,
+.page-about {
+	background: #fbfdff;
+}
+.reviews-about__block img {
+	max-width: 100%;
 }

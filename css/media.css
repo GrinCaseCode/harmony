@@ -269,7 +269,7 @@
         min-height: 620px;
     }
     .page-about {
-        padding-bottom: 220px;
+        padding-bottom: 60px;
     }
     .prices-table table tr > *:nth-child(4),
     .prices-table table tr > *:nth-child(1) {
@@ -303,6 +303,30 @@
     .blockquote::after {
         bottom: 25px;
         right: 30px;
+    }
+    .form-page {
+        padding: 24px 30px;
+        margin-left: -59px;
+    }
+    .form-page__title {
+        margin-bottom: 22px;
+        font-size: 22px;
+    }
+    .contacts-main__item {
+        margin-bottom: 30px;
+    }
+    .page-directions .article-content {
+        padding-top: 30px;
+    }
+    .logo-about {
+        height: 230px;
+        margin: 55px 0;
+    }
+    .logo-about img {
+        width: 590px;
+    }
+    .reviews-about {
+        padding-bottom: 120px;
     }
 }
 @media only screen and (max-width : 1600px) {
@@ -592,9 +616,6 @@
     .billbord-page {
         min-height: 560px;
     }
-    .page-about {
-        padding-bottom: 170px;
-    }
     .team-about {
         padding-bottom: 90px;
     }
@@ -607,9 +628,6 @@
     .item-about {
         padding: 38px 33px;
         padding-top: 55px;
-    }
-    .page-about .text-columns {
-        margin-bottom: 45px;
     }
     .text-columns {
         gap: 25px;
@@ -646,6 +664,13 @@
         font-size: 19px;
         margin-top: 22px;
         margin-bottom: 12px;
+    }
+    .logo-about {
+        height: 210px;
+        margin: 40px 0;
+    }
+    .logo-about img {
+        width: 550px;
     }
 }
 @media only screen and (max-width : 1400px) {
@@ -863,6 +888,7 @@
     .article-sidebar {
         top: 88px;
     }
+    .page-contacts,
     .page-prices, 
     .page-schedule, 
     .page-questions, 
@@ -887,11 +913,11 @@
     .text-billbord {
         max-width: 620px;
     }
-    .page-about .text-columns {
-        margin-bottom: 37px;
-    }
     .text-columns {
         gap: 22px;
+    }
+    .logo-about img {
+        width: 470px;
     }
 }
 /* Large Devices, Wide Screens */
@@ -1180,6 +1206,7 @@
     .unit-directions .item-tag {
         font-size: 12px;
     }
+    .page-contacts,
     .page-prices,
     .page-schedule,
     .page-article,
@@ -1291,16 +1318,13 @@
     .text-columns {
         columns: initial;
     }
-    .page-about .text-columns {
-        margin-bottom: 30px;
-    }
     .item-about {
         padding: 23px 20px;
         padding-top: 35px;
         border-radius: 14px;
     }
     .page-about {
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     .head-section__content .title-text {
         font-size: 16px;
@@ -1378,6 +1402,23 @@
     .page-article .row_news {
         padding-top: 15px; 
     }
+    .page-directions .article-content {
+        padding-top: 20px;
+    }
+    .logo-about img {
+        max-width: 100%;
+    }
+    .logo-about {
+        height: 150px;
+        margin: 35px 0;
+        padding: 20px;
+    }
+    .reviews-about__block {
+        padding: 20px;
+    }
+    .reviews-about {
+        padding-bottom: 50px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1453,6 +1494,7 @@
 }
 
 @media (min-width: 2200px) {
+    .page-contacts,
     .page-prices,
     .page-schedule,
     .page-questions,
