@@ -338,6 +338,9 @@
     .billbord-page_service {
         min-height: 535px;
     }
+    .page-service {
+        padding-top: 15px;
+    }
 }
 @media only screen and (max-width : 1600px) {
     .sidebar-page {
