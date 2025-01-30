@@ -1630,3 +1630,39 @@ div.item-tag {
 .reviews-about__block img {
 	max-width: 100%;
 }
+
+.billbord-page_service .title-big {
+	font-size: 48px;
+	margin-bottom: 36px;
+	line-height: 130%;
+}
+.billbord-page_service .text-billbord {
+	max-width: 685px;
+}
+.billbord-page_service {
+	min-height: 580px;
+}
+.page-service .title-section {
+	margin-top: 60px;
+	margin-bottom: 36px;
+}
+.page-service .prices-table {
+	margin-top: 50px;
+}
+.page-service .title-td {
+	font-weight: 400;
+}
+.page-service,
+.page-service ~ .directions,
+.page-service ~ .consultation {
+	background: #fbfdff;
+}
+.directions {
+	padding-bottom: 70px;
+}
+.directions .title-section {
+	margin-bottom: 20px;
+}
+.page-service ~ .consultation {
+	padding-bottom: 70px;
+}
