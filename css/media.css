@@ -341,6 +341,9 @@
     .page-service {
         padding-top: 15px;
     } 
+    .breadcrumbs {
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width : 1600px) {
     .sidebar-page {
@@ -886,7 +889,6 @@
     .breadcrumbs {
         padding-top: 23px;
         padding-bottom: 16px;
-        font-size: 13px;
     }
     .single-doctor__sidebar {
         top: 80px;
