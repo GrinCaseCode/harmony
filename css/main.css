@@ -1537,54 +1537,6 @@ div.item-tag {
 	margin-bottom: 20px;
 }
 
-.page-contacts {
-	padding-bottom: 110px;
-}
-.contacts-main {
-	padding: 34px 45px;
-	padding-right: 35px;
-	border-radius: 20px;
-	background: #fff;
-}
-.page-contacts .title-section {
-	margin-bottom: 38px;
-}
-.form-page {
-	padding: 24px 36px;
-	margin-left: -50px;
-	border-radius: 20px;
-	background: #d2e0e7;
-}
-.form-page__title {
-	margin-bottom: 28px;
-	font-size: 24px;
-	line-height: 160%;
-	text-align: center;
-	font-weight: 500;
-}
-.form-page .btn-main {
-	margin-top: 15px;
-	width: 100%;
-}
-.contacts-main__item strong {
-	font-weight: 500;
-}
-.contacts-main__item {
-	margin-bottom: 40px;
-}
-.contacts-main__item a {
-	color: #17333f;
-}
-.contacts-main__line {
-	margin-top: 2px;
-	gap: 20px;
-	display: flex;
-	align-items: center;
-}
-.contacts-main__content {
-	margin-right: 30px;
-}
-
 #map {
 	height: 412px;
 	margin-top: 50px;
@@ -1665,4 +1617,52 @@ div.item-tag {
 }
 .page-service ~ .consultation {
 	padding-bottom: 70px;
+}
+
+.page-contacts {
+	padding-bottom: 110px;
+}
+.contacts-main {
+	padding: 34px 45px;
+	padding-right: 35px;
+	border-radius: 20px;
+	background: #fff;
+}
+.page-contacts .title-section {
+	margin-bottom: 38px;
+}
+.form-page {
+	padding: 24px 36px;
+	margin-left: -50px;
+	border-radius: 20px;
+	background: #d2e0e7;
+}
+.form-page__title {
+	margin-bottom: 28px;
+	font-size: 24px;
+	line-height: 160%;
+	text-align: center;
+	font-weight: 500;
+}
+.form-page .btn-main {
+	margin-top: 15px;
+	width: 100%;
+}
+.contacts-main__item strong {
+	font-weight: 500;
+}
+.contacts-main__item {
+	margin-bottom: 40px;
+}
+.contacts-main__item a {
+	color: #17333f;
+}
+.contacts-main__line {
+	margin-top: 2px;
+	gap: 20px;
+	display: flex;
+	align-items: center;
+}
+.contacts-main__content {
+	margin-right: 30px;
 }

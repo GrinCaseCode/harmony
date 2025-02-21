@@ -1477,6 +1477,7 @@
     }
     .contacts-main {
         font-size: 14px;
+        padding: 20px;
     }
     .form-page {
         margin: 0;
@@ -1506,6 +1507,9 @@
     }
     .directions {
         padding-bottom: 52px;
+    }
+    .form-page {
+        padding: 20px 16px;
     }
 }
 
